@@ -9,6 +9,10 @@ import scrapy
 
 
 class InternItem(scrapy.Item):
+    intern_type = scrapy.Field()
+    intern_company = scrapy.Field()
+    intern_stipend = scrapy.Field()
+    intern_duration = scrapy.Field()
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
